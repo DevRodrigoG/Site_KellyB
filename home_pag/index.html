@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Jquery -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- Fa icons -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../fotos/favicon.ico" type="image/x-icon">
+
+    <!--  Google fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!--  Escilos CSS -->
+
+    <link rel="stylesheet" href="../home_pag/estilos/estilo_geral.css">
+
+    <link rel="stylesheet" href="../home_pag/estilos/estilo_header.css">
+
+    <link rel="stylesheet" href="../home_pag/estilos/estilo_main.css">
+
+    <link rel="stylesheet" href="../home_pag/estilos/estilo_footer.css">
+
+    <title>home_pag</title>
+</head>
+
+<body>
+
+    <header>
+
+<!--         ============================ Barra de navegação ==================-->        
+        <nav id="nav_Bar">
+            <i class="fa-solid fa-scissors" id="nav_logo">_K.B</i>
+
+            <ul id="nav_list">
+                <li class="nav_item active">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#servicos">Serviços</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#faleConosco">Fale Conosco</a>
+                </li>
+            </ul>
+
+            <a href="HTTPS://wa.me/5581986487802?text=Gostaria+de+agendar,+quais+os+dias+/+horarios+disponiveis"
+                target="_blank">
+                <button class="btn_defaul">Agende Aqui</button>
+            </a>
+
+
+            <div class="user_button">
+                <button class="user"><i class="fa-solid fa-circle-user"></i></i></button>
+
+                <button id="mobile_btn"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+<!--         ========================================== barra de navegação mobile =================== -->
+         <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+                <li class="nav_item">
+                    <button class="mobile_btn_user"><i class="fa-solid fa-circle-user"></i></i></button>
+                </li>
+                <li class="nav_item">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#servicos">Serviços</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#faleConosco">Fale Conosco</a>
+                </li>
+            </ul>
+
+            <a href="HTTPS://wa.me/(numero)?text=Gostaria+de+agendar,+quais+os+dias+disponiveis"
+                target="_blank"><button class="btn_defaul">Agende Aqui</button></a>
+
+        </div>
+
+    </header>
+
+    <main id="content">
+<!--         =================== banneer para promoçoes ==================== -->        
+        <div class="Descaques">
+            <img src="../fotos/Banner_20off.png" alt="Destaques e promoções">
+        </div>
+
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <!-- =============== titulo e descrição ================= -->
+                <h1 class="title">Não perca tempo e venha logo cuidar de <span>VOCÊ !</span></h1>
+                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque dolor
+                    necessitatibus et ea beatae? Id reiciendis praesentium!</p>
+                    
+                <!--  ============== butões e modos de contato ================= -->
+                <div id="cta_buttons">
+                    <a href="https://wa.me/c/(numero)" target="_blank">
+                        <button class="btn_defaul">
+                            Veja nossos serviços
+                        </button>
+                    </a>
+                    <a href="tel:+numero" id="phone_button" target="_blank">
+                        <button class="btn_defaul">
+                            <i class="fa-solid fa-phone">
+                            </i>
+                            (81)99999-999
+                        </button>
+                    </a>
+                </div>
+                <div class="social_midia_buttons">
+                    <a href="tel:+numero" target="_blank">
+                        <i class="fa-brands fa-whatsapp">
+                            (99)99999-9999
+                        </i>
+                    </a>
+                    <a href="https://www.instagram.com/studiokelyb/" target="_blank">
+                        <i class="fa-brands fa-instagram">
+                            StudioKelyB
+                        </i>
+                    </a>
+                </div>
+            </div>
+                <!-- ============== banner ctn -->
+            <div id="banner">
+                <img class="img_home" src="../fotos/kelly_quem_sou.jpg" alt="kelly_quem_sou">
+            </div>
+
+        </section>
+
+        <section id="servicos">
+<!--        ================================= Informações sobre serviços prestados ======================= -->
+<!--        ========== padronisado (texto imagem) e para o proximo artigo inverter a ordem (imagem e texto)========== -->
+
+            <div id="titulo-servicos">
+                <h1>Conheça um pouco dos nossos serviços:</h1>
+            </div>
+<!--        ==============  section 1 ============= -->
+            <div class="sessao-servicos">
+
+                <div class="description-servicos">
+                    <h2>Depilação Com Cera:</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque unde totam blanditiis nemo
+                        deserunt aspernatur rerum obcaecati. Itaque nemo optio reprehenderit. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Voluptatem ab alias totam sed quia nisi sapiente tempora
+                        temporibus adipisci fugiat ducimus minima minus, eligendi distinctio consectetur qui reiciendis
+                        repellendus impedit!</p>
+                </div>
+                <div class="img-box-servicos">
+                    <img class="img-servicos" src="../fotos/agendas_abertas.jpg" alt="Depilação">
+                </div>
+
+            </div>
+<!--        ==============  section 2 ============= -->
+            <div class="sessao-servicos">
+
+                <div class="img-box-servicos">
+                    <img class="img-servicos" src="../fotos/ame_sua_pele.jpg" alt="cuidado_de_pele">
+                </div>
+                <div class="description-servicos">
+                    <h2>Limpeza de Pele:</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque unde totam blanditiis nemo
+                        deserunt aspernatur rerum obcaecati. Itaque nemo optio reprehenderit Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Delectus neque eligendi earum eos? Qui eum iusto repudiandae,
+                        natus quasi quam aperiam velit dolore, minima, enim ullam vitae facilis? Laboriosam, saepe!.</p>
+                </div>
+
+            </div>
+<!--        ==============  section 3 ============= -->
+            <div class="sessao-servicos">
+
+                <div class="description-servicos">
+                    <h2>Esfoliante Facial:</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque unde totam blanditiis nemo
+                        deserunt aspernatur rerum obcaecati. Itaque nemo optio reprehenderit. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Magnam exercitationem repellendus dolor ad ab necessitatibus. Nemo
+                        id odit accusamus eius quod, nesciunt esse magni harum quia, iusto in excepturi quasi.</p>
+                </div>
+                <div class="img-box-servicos">
+                    <img class="img-servicos" src="../fotos/bene_limp_pele.jpg" alt="Depilação">
+                </div>
+
+            </div>
+<!--        ==============  section 4 ============= -->
+            <div class="sessao-servicos">
+
+                <div class="img-box-servicos">
+                    <img class="img-servicos" src="../fotos/beneficio_cera.jpg" alt="">
+                </div>
+                <div class="description-servicos">
+                    <h2>Limpeza de Pele:</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque unde totam blanditiis nemo
+                        deserunt aspernatur rerum obcaecati. Itaque nemo optio reprehenderit Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Delectus neque eligendi earum eos? Qui eum iusto repudiandae,
+                        natus quasi quam aperiam velit dolore, minima, enim ullam vitae facilis? Laboriosam, saepe!.</p>
+                </div>
+
+            </div>
+<!--        ==============  próximas section apartir daqui ============= -->
+
+        </section>
+    </main>
+
+    <footer id="faleConosco">
+<!--        ==================  Criador do site ===================== CONTATO: (81)989043600 ================ -->
+        <p>Criador Por: <span><a href="tel:+5581989043600">Rodrigo.Dev</a></span></p>
+
+<!--        ==================== Contatos do proficional ========================== -->
+        <div class="social_midia_buttons">
+            <a href="tel:+numero" target="_blank">
+                <i class="fa-brands fa-whatsapp">
+                    (99)99999-999
+                </i>
+            </a>
+
+            <a href="https://www.instagram.com/studiokelyb/" target="_blank">
+                <i class="fa-brands fa-instagram">
+                    StudioKelyB
+                </i>
+            </a>
+
+        </div>
+    </footer>
+<!--           ============ LINK do JavaScript ===============                       -->
+    <script src="./homePag.js"></script>
+
+</body>
+
+</html>

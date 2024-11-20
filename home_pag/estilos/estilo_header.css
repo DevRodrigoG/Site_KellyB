@@ -1,0 +1,107 @@
+:root {
+    --cor_fundo: #ff93df62;
+    --corLetras: #1d1717;
+    --corBottom: #c018da;
+    --fundoBTN: #c018da8d;
+    --houverBTN: #c018daf3;
+    --LetraDestaque: #c51180;
+    --LetraContraste: #fff;
+}
+
+header {
+    width: 100%;
+    padding: 28px 8%;
+}
+
+#nav_Bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+
+}
+
+#nav_logo {
+    font-size: 24px;
+    color: var(--corLetras);
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: var(--corLogo);
+    font-weight: 600;
+}
+
+.nav_item.active a {
+    color: var(--corLetras);
+    border-bottom: 3px solid var(--corBottom);
+}
+
+.user {
+    border: none;
+    font-size: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.mobile_btn_user {
+    border: none;
+    background-color: transparent;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+
+/*Quando a tela estiver menor que 1000px*/
+
+@media screen and (max-width: 1000px) {
+
+    #nav_list,
+    #nav_Bar .btn_defaul,
+    .user {
+        display: none;
+    }
+
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.7rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobile_nav_list .nav_item {
+        list-style: none;
+        text-align: cente;
+    }
+    
+}

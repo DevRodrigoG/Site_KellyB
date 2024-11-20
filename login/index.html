@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estiloLogin.css">
+    <link rel="shortcut icon" href="../fotos/favicon.ico" type="image/x-icon">
+    <title>kelly_Dep_Login</title>
+</head>
+
+<body>
+
+    <div class="Container"> <!-- caixa do formulário  -->
+
+        <form action="../home_pag/index.html" "> <!-- Inicio do formulário // Active para direcionar a btn submit -->
+
+            <h1>Login</h1> <!-- Titulo do formulário de login  -->
+
+            <div class="input-container"> <!-- Div input -->
+
+                <input placeholder="Email" type="Email" id="email">
+
+                <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/user.png" alt="user"/> <!-- Imagem do usuário  -->
+
+            </div>
+
+            <div class="input-container"> <!-- Div input  senha -->
+
+                <input placeholder="Senha" type="Password" id="senha">
+
+                <img width="25  " height="25" src="https://img.icons8.com/ios-filled/50/lock.png" alt="lock"/> <!-- Imagem da senha   -->
+
+                <div class="recuperar_senha">
+                    <a href="#"> Esqueci minha senha </a> <!-- Link para recuperação de senha -->
+                </div>
+            </div>
+
+            
+            
+<!--             <button type="submit" class="btn">Login</button>-->            
+             <input type="submit" class="btn" id="submitbutton" onsubmit="clicksubmit()" value="Login">
+
+            <div class="link_registro"> <!-- Div cadastra-se -->
+
+                <p>Não está cadastrado? <a href="../cadastro/index.html">Cadastre-se</a></p> <!-- Caso cliente não tenha cadastro -->
+
+            </div>
+
+        </form> <!-- Fim do formulário -->
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+:root {
+    --cor_fundo: #ff93df62;
+    --corLetras: #1d1717;
+    --corBottom: #c018da;
+    --fundoBTN: #c018da8d;
+    --houverBTN: #c018daf3;
+    --LetraDestaque: #c51180;
+    --LetraContraste: #fff;
+}
+
+#faleConosco{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--LetraDestaque);
+    padding: 10px;
+}
+
+#faleConosco p{
+    font-weight: bold;
+    font-size: 1.6em;
+
+}
+#faleConosco i{
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+#faleConosco span a{
+    text-decoration: none;
+    color: #fff;
+
+}
+#faleConosco span a:hover{
+    text-decoration: underline;
+    color: #ffffffc2;
+
+}
+#home .social_midia_buttons{
+    width: 450px;
+}
+#faleConosco .social_midia_buttons a{
+    color: var(--corLetras);
+    transition: .3s;
+}
+#faleConosco .social_midia_buttons a:hover{
+    color: #fff;
+}
+#faleConosco .social_midia_buttons i{
+    margin-left: 25px;
+
+}

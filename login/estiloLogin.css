@@ -1,0 +1,129 @@
+* {                                                 /*  Resentando o CSS do navegador*/
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}  
+
+body{
+
+    background-image: url(../fotos/kelly_fundo_pessoa.jpg);    
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: left center ;
+    min-height: 100vh;
+    display:flex; 
+    align-items:center;                             /* Deixando o formulario no centro do body*/
+    justify-content:right;
+}
+
+h1{                                                 /* Titulo do forms*/
+    font-size: 36px;                                /* Aumentando o tamanho da font*/
+    text-align: center;                             /* Alinhando o texto ao centro*/
+    color: #fff;                                    /* Trocando a cor da font*/
+}
+
+.Container{
+    width: 430px;                                    /* Largura do forms na tela*/
+    background: rgba(10, 9, 9, 0.371);
+    border: 2px solid rgba(82, 81, 81, 0.23);               /* cor da borda */
+    backdrop-filter: blur(10px) ;                   /* efeito borrado no fundo do forms*/
+    border-radius: 10px;                            /* Arredondamento das bordas do forms*/
+    padding: 30px 40px;
+    margin-right: 60px;
+    margin-top: -60px;
+
+}
+
+.input-container{                                  /*  configuração div dos inputs do forms*/
+    position: relative; 
+    width: 100%;                                   /* deixando o input com 100% de largura*/
+    height: 50px;                                   /* deixando o input com 100% da altura*/
+    margin: 30px 0;                                 /* Colocando espaçamento de 30px em cima e baixo*/
+}
+
+.input-container input{
+    width: 100%;
+    height:100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.333);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px, 45px, 20px, 20px;
+    margin-bottom: 5px;
+    padding-left: 8px;
+}
+
+.input-container input::placeholder{
+    position: absolute;
+    left: 7px;
+    color: #fff;
+}
+
+.input-container img{   
+    position: absolute;
+    right: 24px;
+    top: 11px;
+}
+
+.input-container a{
+    margin-left: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.input-container a:hover{
+    color: rgb(249, 112, 220) ;
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background-color: #f6c7f0db;
+    font-size: 20px;
+    border: .5px solid purple;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.btn a{
+    padding: 8px 150px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.614);
+}
+.btn:hover {
+    background-color: rgba(152, 12, 152, 0.588);
+    border: .5px solid #c7a2c2 ;
+    transition: .3s;
+}
+.btn a:hover{
+    color: rgba(255, 255, 255, 0.717);
+    transition: .3s;
+
+}
+
+.link_registro{
+    margin-left: 35px;
+    font-size: 19px;
+}
+
+.link_registro p a{
+    text-decoration: none;
+    color: white;
+}
+
+.link_registro p a:hover{
+    text-decoration: underline;
+    color: rgb(249, 112, 220);
+}
+
+.link_registro p{
+    color: white;
+    font-size: 17px;
+}
